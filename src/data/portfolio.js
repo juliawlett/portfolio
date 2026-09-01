@@ -1,10 +1,11 @@
 export const profile = {
-  name: 'Júlia Lima',
-  email: 'seuemail@exemplo.com',
-  location: 'Brasil · disponível para remoto',
-  github: 'https://github.com/',
-  linkedin: 'https://www.linkedin.com/',
-  twitter: 'https://x.com/'
+  name: 'Júlia Letícia',
+  role: 'Desenvolvedora de Software Júnior · Full Stack',
+  email: 'dev.julialeticia@gmail.com',
+  location: 'Cuiabá · MT',
+  company: 'AgriX',
+  github: 'https://github.com/juliawlett',
+  linkedin: 'https://www.linkedin.com/in/juliawlett/'
 };
 
 export const projects = [
@@ -91,25 +92,54 @@ export const projects = [
 ];
 
 export const skillGroups = [
-  { label: 'Linguagens', icon: '{ }', items: ['JavaScript / TypeScript', 'C#', 'SQL'] },
-  { label: 'Frontend', icon: '</>', items: ['React', 'Next.js', 'Vue / Nuxt', 'Tailwind CSS'] },
-  { label: 'Backend', icon: '⌘', items: ['.NET 6', 'Node.js / Express', 'PostgreSQL'] },
-  { label: 'DevOps', icon: '↗', items: ['Vercel', 'CI/CD', 'GitHub Actions'] }
+  { label: 'Frontend', icon: '</>', items: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'] },
+  { label: 'Backend', icon: '⌘', items: ['C#', '.NET 6', 'Entity Framework', 'Node.js', 'Express'] },
+  { label: 'Dados & APIs', icon: '{ }', items: ['SQL', 'MySQL', 'PostgreSQL', 'JWT', 'bcrypt', 'CRUDs'] },
+  { label: 'Ferramentas', icon: '↗', items: ['Git', 'GitLab', 'Postman', 'Figma', 'Visual Studio', 'VS Code'] },
+  { label: 'Em aprofundamento', icon: '＋', items: ['Supabase', 'Docker', 'Arquitetura', 'Deploy em VPS', 'Vercel', 'CI/CD'] }
 ];
 
 export const experiences = [
   {
-    period: 'Atual',
-    role: 'Desenvolvedora Júnior',
-    company: 'Atuação profissional',
-    text: 'Construção e evolução de aplicações com foco em backend .NET e interfaces web modernas.',
+    period: 'Início de 2026 · atual',
+    role: 'Desenvolvedora de Software Júnior',
+    company: 'AgriX',
+    text: 'Atuação na evolução de um sistema corporativo voltado ao agronegócio, integrando frontend, backend e banco de dados.',
     stack: ['C#', '.NET 6', 'SQL', 'React', 'TypeScript']
   },
   {
-    period: 'Projetos recentes',
-    role: 'Desenvolvimento de interfaces web',
-    company: 'Projetos autorais',
-    text: 'Criação de experiências responsivas para negócios de saúde, varejo, alimentação e produtos digitais.',
-    stack: ['HTML', 'CSS', 'JavaScript', 'Design responsivo']
+    period: '2025 · 2º ano de estágio',
+    role: 'Estagiária de Desenvolvimento · atividades de nível júnior',
+    company: 'AgriX',
+    text: 'Ampliação da responsabilidade técnica em correções, validações, componentização e integração entre frontend, backend e banco, ainda na modalidade de estágio.',
+    stack: ['React', 'TypeScript', 'C#', '.NET 6', 'Entity Framework']
+  },
+  {
+    period: 'Início de 2024 · 2025',
+    role: 'Estagiária de Desenvolvimento',
+    company: 'AgriX',
+    text: 'Entrada no desenvolvimento profissional durante o tecnólogo, com aprendizado prático em sistemas corporativos e trabalho colaborativo.',
+    stack: ['React', 'TypeScript', 'C#', 'SQL', 'GitLab']
+  },
+  {
+    period: '2023',
+    role: 'Técnico em Análise e Desenvolvimento de Sistemas',
+    company: 'Ensino médio técnico',
+    text: 'Primeiro contato estruturado com lógica de programação, desenvolvimento de sistemas e fundamentos da área de tecnologia.',
+    stack: ['Lógica', 'Programação', 'Sistemas']
+  },
+  {
+    period: 'Previsão · fim de 2026',
+    role: 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
+    company: 'UNIC',
+    text: 'Formação superior em andamento, conectando fundamentos acadêmicos à experiência prática no desenvolvimento de software.',
+    stack: ['Engenharia de software', 'Banco de dados', 'Desenvolvimento']
+  },
+  {
+    period: 'Previsão · início de 2027',
+    role: 'Pós-graduação em Engenharia de Software',
+    company: 'Próxima etapa acadêmica',
+    text: 'Planejamento de continuidade dos estudos com foco em arquitetura, qualidade e evolução de sistemas.',
+    stack: ['Arquitetura', 'Qualidade', 'Boas práticas']
   }
 ];

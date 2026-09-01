@@ -15,5 +15,5 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
-  return <footer className="site-footer"><div className="container footer-inner"><Brand /><p>Feito com React, curiosidade e um pouco de café.</p><div><a href={profile.github} target="_blank" rel="noreferrer">GitHub ↗</a><small>© 2026 Júlia Lima</small></div></div></footer>;
+  return <footer className="site-footer"><div className="container footer-inner"><Brand /><p>Feito com React, curiosidade e um pouco de café.</p><div><a href={profile.github} target="_blank" rel="noreferrer">GitHub ↗</a><small>© 2026 {profile.name}</small></div></div></footer>;
 }
