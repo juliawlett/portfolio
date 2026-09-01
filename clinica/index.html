@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Psicoterapia para adultos com Helena Duarte, atendimento online e presencial em Cuiabá." />
+  <title>Helena Duarte | Psicóloga Clínica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {ink: '#27352f', sage: '#718274', sand: '#f6f2ea', terracotta: '#b77a62', mist: '#e6ebe5'},
+          fontFamily: {sans: ['DM Sans', 'sans-serif'], display: ['Playfair Display', 'serif']}
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-sand font-sans text-ink antialiased">
+  <!-- Cabeçalho -->
+  <header id="header" class="fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300">
+    <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
+      <a href="#inicio" class="group flex items-center gap-3" aria-label="Ir ao início">
+        <span
+          class="flex h-10 w-10 items-center justify-center rounded-full bg-ink font-display text-xl text-sand">H</span>
+        <span class="leading-tight"><strong class="block font-display text-lg font-semibold">Helena
+            Duarte</strong><small class="text-[10px] font-semibold tracking-[.16em] text-sage">PSICÓLOGA · CRP
+            18/12345</small></span>
+      </a>
+      <nav class="hidden items-center gap-7 text-sm font-medium lg:flex" aria-label="Navegação principal">
+        <a href="#inicio" class="nav-link">Início</a><a href="#atuacao" class="nav-link">Atuação</a><a href="#sobre"
+          class="nav-link">Sobre</a><a href="#como-funciona" class="nav-link">Como funciona</a><a href="#duvidas"
+          class="nav-link">Dúvidas</a>
+      </nav>
+      <a href="https://wa.me/5565999991234?text=Olá%2C%20gostaria%20de%20saber%20sobre%20os%20horários%20de%20atendimento."
+        target="_blank" rel="noopener"
+        class="hidden rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-sage lg:inline-flex">Agendar
+        sessão</a>
+      <button id="menu-button" class="inline-flex rounded-full border border-ink/15 p-2.5 lg:hidden"
+        aria-label="Abrir menu" aria-expanded="false"><i data-lucide="menu" class="h-5 w-5"></i></button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu border-t border-ink/10 bg-sand lg:hidden">
+      <nav class="mx-auto flex max-w-7xl flex-col gap-1 px-5 py-4 text-sm font-medium">
+        <a href="#inicio">Início</a><a href="#atuacao">Atuação</a><a href="#sobre">Sobre</a><a
+          href="#como-funciona">Como funciona</a><a href="#duvidas">Dúvidas</a>
+        <a href="https://wa.me/5565999991234?text=Olá%2C%20gostaria%20de%20saber%20sobre%20os%20horários%20de%20atendimento."
+          target="_blank" rel="noopener" class="mt-2 rounded-full bg-ink px-4 py-3 text-center text-white">Agendar
+          sessão</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="relative overflow-hidden pt-20">
+      <div
+        class="mx-auto grid min-h-[720px] max-w-7xl items-center gap-12 px-5 py-16 md:px-8 lg:grid-cols-[1.02fr_.98fr] lg:py-20">
+        <div class="reveal relative z-10 max-w-2xl">
+          <p class="mb-5 flex items-center gap-2 text-xs font-bold tracking-[.18em] text-terracotta"><span
+              class="h-px w-8 bg-terracotta"></span>PSICOTERAPIA PARA ADULTOS</p>
+          <h1 class="font-display text-5xl leading-[1.04] sm:text-6xl lg:text-7xl">Um espaço para você se escutar.</h1>
+          <p class="mt-7 max-w-xl text-lg leading-relaxed text-ink/75">A psicoterapia pode ser um lugar de pausa,
+            compreensão e cuidado. Um encontro seguro para olhar com mais atenção para suas emoções, relações e
+            escolhas.</p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/5565999991234?text=Olá%2C%20gostaria%20de%20conhecer%20os%20horários%20de%20atendimento."
+              target="_blank" rel="noopener" class="btn-primary"><i data-lucide="message-circle"></i>Conversar pelo
+              WhatsApp</a>
+            <a href="#sobre" class="btn-secondary">Conheça meu trabalho <i data-lucide="arrow-down-right"></i></a>
+          </div>
+          <div class="mt-12 flex flex-wrap gap-x-7 gap-y-3 text-sm text-ink/75"><span class="flex items-center gap-2"><i
+                data-lucide="shield-check" class="h-4 w-4 text-sage"></i>Atendimento ético e sigiloso</span><span
+              class="flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4 text-sage"></i>Online e
+              presencial</span></div>
+        </div>
+        <div class="reveal reveal-delay relative mx-auto w-full max-w-xl lg:max-w-none">
+          <div class="absolute -right-6 top-8 h-4/5 w-4/5 rounded-t-full bg-mist sm:-right-10"></div>
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=85"
+            alt="Ambiente acolhedor de consultório terapêutico"
+            class="relative h-[480px] w-full rounded-t-[11rem] rounded-bl-[5rem] object-cover shadow-2xl shadow-ink/10 sm:h-[570px]" />
+          <div
+            class="absolute -bottom-5 -left-2 max-w-[220px] rounded-2xl bg-white p-5 shadow-xl shadow-ink/10 sm:-left-8">
+            <p class="text-[10px] font-bold tracking-[.16em] text-terracotta">ATENDIMENTO</p>
+            <p class="mt-1 font-display text-xl">Cuiabá e online</p>
+            <p class="mt-2 text-xs leading-relaxed text-ink/65">Um espaço reservado, confortável e pensado para acolher.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Citação -->
+    <section class="bg-ink px-5 py-20 text-center text-sand md:py-28">
+      <blockquote class="reveal mx-auto max-w-4xl"><span
+          class="font-display text-7xl leading-none text-terracotta">“</span>
+        <p class="font-display text-3xl leading-snug sm:text-4xl">Cuidar do que você sente é também aprender a viver com
+          mais presença.</p>
+      </blockquote>
+    </section>
+
+    <!-- Áreas -->
+    <section id="atuacao" class="section-space">
+      <div class="mx-auto max-w-7xl px-5 md:px-8">
+        <div class="reveal max-w-2xl">
+          <p class="eyebrow">ÁREAS DE ATUAÇÃO</p>
+          <h2 class="section-title">O que podemos compreender juntos</h2>
+          <p class="section-copy">Cada história é única. O acompanhamento é construído com respeito ao seu ritmo, às
+            suas necessidades e ao momento que você está vivendo.</p>
+        </div>
+        <div class="mt-12 grid gap-px overflow-hidden rounded-2xl bg-ink/10 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="area-card"><i data-lucide="wind"></i><span>01</span>
+            <h3>Ansiedade</h3>
+            <p>Acolhimento para compreender preocupações, inseguranças e padrões que atravessam o cotidiano.</p>
+          </article>
+          <article class="area-card"><i data-lucide="cloud-rain"></i><span>02</span>
+            <h3>Humor e desânimo</h3>
+            <p>Um espaço de escuta para momentos de tristeza persistente, apatia e perda de interesse.</p>
+          </article>
+          <article class="area-card"><i data-lucide="heart-handshake"></i><span>03</span>
+            <h3>Relacionamentos</h3>
+            <p>Reflexão sobre vínculos, limites, comunicação e formas mais conscientes de se relacionar.</p>
+          </article>
+          <article class="area-card"><i data-lucide="battery-low"></i><span>04</span>
+            <h3>Burnout</h3>
+            <p>Cuidado diante da sobrecarga, do esgotamento emocional e das exigências do trabalho.</p>
+          </article>
+          <article class="area-card"><i data-lucide="compass"></i><span>05</span>
+            <h3>Autoconhecimento</h3>
+            <p>Um processo para reconhecer necessidades, valores, escolhas e modos de estar no mundo.</p>
+          </article>
+          <article class="area-card"><i data-lucide="moon-star"></i><span>06</span>
+            <h3>Sono e rotina</h3>
+            <p>Compreensão dos fatores emocionais que podem estar relacionados à insônia e à rotina.</p>
+          </article>
+        </div>
+        <p class="mt-6 text-sm text-ink/60">Os temas acima são exemplos de demandas que podem ser trabalhadas em
+          psicoterapia. Cada caso é avaliado individualmente.</p>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="bg-mist/60 py-20 md:py-28">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 md:px-8 lg:grid-cols-2 lg:gap-20">
+        <div class="reveal relative"><img
+            src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=85"
+            alt="Profissional em um ambiente de conversa acolhedora"
+            class="h-[480px] w-full rounded-[2.5rem] object-cover" />
+          <div class="absolute bottom-6 left-6 rounded-full bg-sand px-5 py-3 text-sm font-semibold shadow-lg">Presença
+            & escuta</div>
+        </div>
+        <div class="reveal reveal-delay">
+          <p class="eyebrow">SOBRE A PSICÓLOGA</p>
+          <h2 class="section-title">Olá, eu sou Helena.</h2>
+          <div class="space-y-5 leading-relaxed text-ink/75">
+            <p>Sou psicóloga clínica e acompanho adultos em seus processos de autoconhecimento e cuidado emocional.
+              Acredito em uma psicoterapia construída com presença, respeito e diálogo — sem julgamentos e sem respostas
+              prontas.</p>
+            <p>Minha prática tem orientação integrativa, com fundamentos da Terapia Cognitivo-Comportamental. O trabalho
+              considera sua história, seus pensamentos, emoções e relações, sempre de forma personalizada e responsável.
+            </p>
+            <p>O objetivo do acompanhamento não é indicar um caminho único, mas oferecer condições para que você
+              compreenda melhor suas experiências e construa escolhas mais conscientes.</p>
+          </div>
+          <dl class="mt-8 grid gap-5 border-t border-ink/15 pt-7 sm:grid-cols-2">
+            <div>
+              <dt>FORMAÇÃO</dt>
+              <dd>Psicologia · Formação continuada em clínica de adultos</dd>
+            </div>
+            <div>
+              <dt>MODALIDADES</dt>
+              <dd>Atendimento presencial em Cuiabá e online</dd>
+            </div>
+          </dl>
+          <p class="mt-6 text-sm font-medium text-sage">CRP 18/12345 · Atendimento conforme as normas profissionais</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Passos -->
+    <section id="como-funciona" class="section-space">
+      <div class="mx-auto max-w-7xl px-5 md:px-8">
+        <div class="reveal grid gap-8 lg:grid-cols-[.8fr_1.2fr]">
+          <div>
+            <p class="eyebrow">COMO FUNCIONA</p>
+            <h2 class="section-title">Começar pode ser simples</h2>
+          </div>
+          <p class="max-w-xl self-end text-lg leading-relaxed text-ink/70">O atendimento está disponível de forma
+            presencial em Cuiabá e online, com a mesma atenção ao acolhimento, à privacidade e ao seu ritmo.</p>
+        </div>
+        <div class="mt-12 grid gap-5 md:grid-cols-3">
+          <article class="step-card reveal"><span>01</span><i data-lucide="messages-square"></i>
+            <h3>Entre em contato pelo WhatsApp</h3>
+            <p>Envie uma mensagem para tirar dúvidas iniciais e verificar os horários disponíveis.</p>
+          </article>
+          <article class="step-card reveal reveal-delay"><span>02</span><i data-lucide="calendar-check"></i>
+            <h3>Agende a sua sessão</h3>
+            <p>Escolha o melhor horário e a modalidade de atendimento: online ou presencial.</p>
+          </article>
+          <article class="step-card reveal reveal-delay-2"><span>03</span><i data-lucide="sparkles"></i>
+            <h3>E pronto, sessão agendada</h3>
+            <p>A sessão dura cerca de 50 minutos e acontece de forma tranquila, no consultório ou online.</p>
+          </article>
+        </div>
+        <div
+          class="reveal mt-12 flex flex-col justify-between gap-6 rounded-2xl bg-ink p-8 text-sand sm:flex-row sm:items-center">
+          <div>
+            <p class="font-display text-2xl">Online ou presencial?</p>
+            <p class="mt-2 text-sm text-sand/70">Podemos conversar sobre qual formato faz mais sentido para você.</p>
+          </div><a
+            href="https://wa.me/5565999991234?text=Olá%2C%20gostaria%20de%20consultar%20os%20horários%20disponíveis."
+            target="_blank" rel="noopener"
+            class="rounded-full bg-sand px-5 py-3 text-center text-sm font-bold text-ink transition hover:bg-white">Consultar
+            horários</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="duvidas" class="bg-mist/60 py-20 md:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 md:px-8 lg:grid-cols-[.75fr_1.25fr]">
+        <div class="reveal">
+          <p class="eyebrow">DÚVIDAS FREQUENTES</p>
+          <h2 class="section-title">Antes do primeiro encontro</h2>
+          <p class="section-copy">Reuni aqui algumas informações importantes. Se ainda restar alguma dúvida, fique à
+            vontade para entrar em contato.</p><a
+            href="https://wa.me/5565999991234?text=Olá%2C%20tenho%20uma%20dúvida%20sobre%20o%20atendimento."
+            target="_blank" rel="noopener" class="btn-secondary mt-7">Enviar uma mensagem <i
+              data-lucide="arrow-up-right"></i></a>
+        </div>
+        <div class="reveal reveal-delay divide-y divide-ink/15 border-y border-ink/15">
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false"><span>Aceita convênio?</span><i
+                data-lucide="plus"></i></button>
+            <div class="faq-answer">
+              <p>O atendimento é particular. Quando aplicável, é fornecido recibo para que você verifique diretamente
+                com o seu plano de saúde a possibilidade de reembolso. As condições variam conforme o contrato de cada
+                pessoa.</p>
+            </div>
+          </div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false"><span>Quanto tempo dura a
+                sessão?</span><i data-lucide="plus"></i></button>
+            <div class="faq-answer">
+              <p>As sessões têm duração aproximada de 50 minutos. A frequência e a continuidade do acompanhamento são
+                conversadas de forma individual, respeitando suas necessidades.</p>
+            </div>
+          </div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false"><span>Como é a primeira
+                sessão?</span><i data-lucide="plus"></i></button>
+            <div class="faq-answer">
+              <p>O primeiro encontro é um momento para você falar sobre o que o trouxe até aqui, conhecer o formato do
+                trabalho e tirar suas dúvidas. Não é preciso chegar com tudo organizado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chamada final -->
+    <section class="px-5 py-20 text-center md:py-28">
+      <div class="reveal mx-auto max-w-3xl">
+        <p class="eyebrow">QUANDO FIZER SENTIDO PARA VOCÊ</p>
+        <h2 class="font-display text-4xl leading-tight sm:text-5xl">Podemos começar com uma conversa.</h2><a
+          href="https://wa.me/5565999991234?text=Olá%2C%20gostaria%20de%20agendar%20uma%20sessão." target="_blank"
+          rel="noopener" class="btn-primary mt-8">Agendar uma sessão <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-ink text-sand">
+    <div class="mx-auto max-w-7xl px-5 py-14 md:px-8">
+      <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_.7fr_.9fr]">
+        <div>
+          <div class="flex items-center gap-3"><span
+              class="flex h-10 w-10 items-center justify-center rounded-full bg-sand font-display text-xl text-ink">H</span><span><strong
+                class="block font-display text-lg">Helena Duarte</strong><small
+                class="text-[10px] font-semibold tracking-[.16em] text-sand/60">PSICÓLOGA · CRP 18/12345</small></span>
+          </div>
+          <p class="mt-5 max-w-sm text-sm leading-relaxed text-sand/70">Psicoterapia para adultos, com atendimento
+            online e presencial em Cuiabá — MT.</p>
+          <div class="mt-6 flex gap-3"><a href="#" aria-label="Instagram" class="social-link"><i
+                data-lucide="instagram"></i></a><a href="#" aria-label="LinkedIn" class="social-link"><i
+                data-lucide="linkedin"></i></a></div>
+        </div>
+        <div>
+          <h3 class="footer-heading">NAVEGAÇÃO</h3>
+          <nav class="footer-nav"><a href="#inicio">Início</a><a href="#atuacao">Atuação</a><a href="#sobre">Sobre</a><a
+              href="#como-funciona">Como funciona</a><a href="#duvidas">Dúvidas</a></nav>
+        </div>
+        <div>
+          <h3 class="footer-heading">CONTATO</h3>
+          <div class="space-y-3 text-sm text-sand/75"><a class="block hover:text-white" href="tel:+5565999991234">(65)
+              99999-1234</a><a class="block hover:text-white"
+              href="mailto:contato@helenaduartepsi.com.br">contato@helenaduartepsi.com.br</a>
+            <p class="pt-2">Av. Historiador Rubens de Mendonça, 1856<br />Cuiabá — MT</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-12 border-t border-sand/15 pt-6 text-xs leading-relaxed text-sand/55 md:flex md:items-start md:justify-between md:gap-12">
+        <p>© 2026 Helena Duarte Psicologia. Site demonstrativo — dados profissionais e endereço fictícios.</p>
+        <p class="mt-4 max-w-xl md:mt-0">Em situação de emergência ou risco imediato, procure o SAMU (192), uma UPA ou
+          ligue para o CVV (188), disponível 24 horas.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5565999991234?text=Olá%2C%20gostaria%20de%20saber%20sobre%20o%20atendimento." target="_blank"
+    rel="noopener" class="whatsapp-float" aria-label="Conversar pelo WhatsApp"><i
+      data-lucide="message-circle-more"></i><span>Falar no WhatsApp</span></a>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
