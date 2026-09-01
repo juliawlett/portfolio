@@ -101,49 +101,35 @@ export const skillGroups = [
 
 export const experiences = [
   {
-    period: '2023',
+    period: '2022 – 2023',
     role: 'Técnico em Análise e Desenvolvimento de Sistemas',
-    company: 'FATEC · Ensino médio técnico no SESI',
-    text: 'Primeiro contato estruturado com lógica de programação, desenvolvimento de sistemas e fundamentos da área de tecnologia durante o ensino médio.',
-    stack: ['Lógica', 'Programação', 'Sistemas']
+    company: 'FATEC · Ensino médio no SESI',
+    text: 'Primeira formação em tecnologia, iniciada durante o ensino médio, com prática de desenvolvimento web e fundamentos para criar aplicações completas.',
+    stack: ['React', 'Node.js', 'Express', 'JWT', 'bcrypt', 'GitHub', 'MySQL']
   },
   {
-    period: 'Início de 2024 · 1º ano',
-    role: 'Estagiária de Desenvolvimento',
-    company: 'Weeke Manager · UNIC Beira Rio, Cuiabá',
-    text: 'Entrada no desenvolvimento profissional junto ao início do Tecnólogo em ADS, com aprendizado prático em sistemas corporativos e trabalho colaborativo.',
-    stack: ['React', 'TypeScript', 'C#', 'SQL', 'GitLab']
-  },
-  {
-    period: '2025 · 2º ano de estágio',
-    role: 'Estagiária de Desenvolvimento · atividades de nível júnior',
-    company: 'Weeke Manager',
-    text: 'Ampliação da responsabilidade técnica em correções, validações, componentização e integração entre frontend, backend e banco, ainda formalmente na modalidade de estágio.',
-    stack: ['React', 'TypeScript', 'C#', '.NET 6', 'Entity Framework']
-  },
-  {
-    period: 'Início de 2026',
-    role: 'Desenvolvedora de Software Júnior',
-    company: 'Weeke Manager',
-    text: 'Transição para a posição de desenvolvedora júnior após dois anos de estágio, mantendo a atuação em sistemas corporativos e integrações full stack.',
-    stack: ['React', 'TypeScript', 'C#', '.NET 6', 'SQL']
-  },
-  {
-    period: '06/2026 · atual',
-    role: 'Desenvolvedora de Software Júnior',
-    company: 'AgriX',
-    text: 'Atuação na evolução de um sistema corporativo voltado ao agronegócio, integrando frontend, backend e banco de dados.',
-    stack: ['C#', '.NET 6', 'SQL', 'React', 'TypeScript']
-  },
-  {
-    period: 'Previsão · fim de 2026',
-    role: 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
+    period: '2024 – 2026',
+    role: 'Tecnóloga em Análise e Desenvolvimento de Sistemas',
     company: 'UNIC Beira Rio · Cuiabá',
-    text: 'Conclusão prevista da formação superior iniciada em 2024, conectando fundamentos acadêmicos à experiência prática no desenvolvimento de software.',
-    stack: ['Engenharia de software', 'Banco de dados', 'Desenvolvimento']
+    text: 'Formação superior que consolidou a base conceitual para transformar necessidades em soluções: requisitos, lógica de programação, mobile first e fundamentos de engenharia de software.',
+    stack: ['Requisitos', 'Lógica de programação', 'Mobile first', 'Engenharia de software']
   },
   {
-    period: 'Previsão · início de 2027',
+    period: '2024 – 2025',
+    role: 'Estagiária de Desenvolvimento',
+    company: 'Weeke Manager',
+    text: 'Primeira experiência profissional em desenvolvimento, com atuação em prototipação e construção de interfaces. Após um ano formal como estagiária, passei a assumir atividades de nível júnior antes da mudança de cargo.',
+    stack: ['Prototipação', 'Figma', 'PHP', 'JavaScript', 'jQuery']
+  },
+  {
+    period: '2025 – atual',
+    role: 'Desenvolvedora de Software Júnior',
+    company: 'Weeke Manager · 2025 – 06/2026 → AgriX · 06/2026 – atual',
+    text: 'Na Weeke Manager, evoluí de atividades de estágio para a atuação como júnior em soluções web. Desde junho de 2026, trabalho na AgriX com um sistema corporativo para o agronegócio, conectando frontend, backend, dados e inteligência artificial.',
+    stack: ['PHP', 'JavaScript', 'C#', '.NET 6', 'TypeScript', 'React', 'SQL', 'Entity Framework', 'Agentes de IA', 'GitLab']
+  },
+  {
+    period: 'Previsão · 2027',
     role: 'Pós-graduação em Engenharia de Software',
     company: 'Próxima etapa acadêmica',
     text: 'Planejamento de continuidade dos estudos com foco em arquitetura, qualidade e evolução de sistemas.',

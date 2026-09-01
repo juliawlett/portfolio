@@ -12,7 +12,7 @@ export function Skills() {
 }
 
 export function Experience() {
-  return <section className="section experience-section" id="experiencia"><div className="container experience-grid"><div className="section-intro"><p className="eyebrow">04 — trajetória</p><h2>Em movimento,<br /><span>sempre.</span></h2><p className="section-note">Cada projeto é uma oportunidade de aprender melhor, entregar melhor e colaborar melhor.</p></div><div className="timeline">{experiences.map((item, index) => <article className="timeline-item" key={item.role}><div className="timeline-marker"><span>0{index + 1}</span></div><div className="timeline-content"><p className="timeline-period">{item.period}</p><h3>{item.role}</h3><strong>{item.company}</strong><p>{item.text}</p><div className="tag-list">{item.stack.map(tag => <span key={tag}>{tag}</span>)}</div></div></article>)}</div></div></section>;
+  return <section className="section experience-section" id="experiencia"><div className="container experience-grid"><div className="section-intro"><p className="eyebrow">04 — trajetória</p><h2>Em movimento,<br /><span>sempre.</span></h2><p className="section-note">Da primeira formação técnica à atuação como júnior, conectando estudo, prática e evolução profissional.</p></div><div className="timeline">{experiences.map((item, index) => <article className="timeline-item" key={item.role}><div className="timeline-marker"><span>0{index + 1}</span></div><div className="timeline-content"><p className="timeline-period">{item.period}</p><h3>{item.role}</h3><strong>{item.company}</strong><p>{item.text}</p><div className="tag-list">{item.stack.map(tag => <span key={tag}>{tag}</span>)}</div></div></article>)}</div></div></section>;
 }
 
 export function OpenSource() {
