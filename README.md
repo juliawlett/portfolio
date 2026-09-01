@@ -2,6 +2,8 @@
 
 Portfolio pessoal construído com React e Vite.
 
+> Requer Node.js 18 ou superior para executar o Vite.
+
 ## Desenvolvimento local
 
 ```bash
@@ -27,4 +29,4 @@ Importe este repositório na Vercel e mantenha:
 
 Os dados pessoais, links e projetos ficam centralizados em `src/data/portfolio.js`.
 
-Os links dos quatro projetos estão relativos às pastas irmãs (`../clinica`, `../otica`, `../pizzaria` e `../venda`). Ao publicar somente esta pasta na Vercel, troque os campos `live` por URLs públicas dos projetos ou publique todos eles no mesmo repositório.
+Os links dos quatro projetos apontam para as subpastas de `projetos` (`../projetos/clinica`, `../projetos/otica`, `../projetos/pizzaria` e `../projetos/venda`). Ao publicar somente o portfolio na Vercel, troque os campos `live` por URLs públicas dos projetos ou publique toda a árvore no mesmo repositório.
