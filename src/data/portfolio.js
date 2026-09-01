@@ -19,7 +19,7 @@ export const projects = [
     stack: ['HTML5', 'CSS3', 'JavaScript'],
     accent: 'blue',
     preview: 'dashboard',
-    live: '../venda/index.html',
+    live: '../projetos/venda/index.html',
     github: profile.github,
     study: {
       problem: 'Times que crescem precisam entender rapidamente como a plataforma organiza projetos, tarefas e custos.',
@@ -39,7 +39,7 @@ export const projects = [
     stack: ['HTML5', 'CSS3', 'JavaScript'],
     accent: 'violet',
     preview: 'store',
-    live: '../otica/index.html',
+    live: '../projetos/otica/index.html',
     github: profile.github,
     study: {
       problem: 'Uma ótica precisa transmitir confiança e estilo antes mesmo do primeiro contato do cliente.',
@@ -59,7 +59,7 @@ export const projects = [
     stack: ['HTML5', 'CSS3', 'JavaScript'],
     accent: 'orange',
     preview: 'pizza',
-    live: '../pizzaria/index.html',
+    live: '../projetos/pizzaria/index.html',
     github: profile.github,
     study: {
       problem: 'O cliente precisa visualizar opções, escolher quantidades e enviar os dados do pedido sem fricção.',
@@ -79,7 +79,7 @@ export const projects = [
     stack: ['HTML5', 'Tailwind CSS', 'JavaScript'],
     accent: 'green',
     preview: 'clinic',
-    live: '../clinica/index.html',
+    live: '../projetos/clinica/index.html',
     github: profile.github,
     study: {
       problem: 'Serviços de cuidado precisam explicar sua proposta com sensibilidade, clareza e confiança.',
@@ -101,38 +101,45 @@ export const skillGroups = [
 
 export const experiences = [
   {
-    period: 'Início de 2026 · atual',
+    period: '2023',
+    role: 'Técnico em Análise e Desenvolvimento de Sistemas',
+    company: 'FATEC · Ensino médio técnico no SESI',
+    text: 'Primeiro contato estruturado com lógica de programação, desenvolvimento de sistemas e fundamentos da área de tecnologia durante o ensino médio.',
+    stack: ['Lógica', 'Programação', 'Sistemas']
+  },
+  {
+    period: 'Início de 2024 · 1º ano',
+    role: 'Estagiária de Desenvolvimento',
+    company: 'Weeke Manager · UNIC Beira Rio, Cuiabá',
+    text: 'Entrada no desenvolvimento profissional junto ao início do Tecnólogo em ADS, com aprendizado prático em sistemas corporativos e trabalho colaborativo.',
+    stack: ['React', 'TypeScript', 'C#', 'SQL', 'GitLab']
+  },
+  {
+    period: '2025 · 2º ano de estágio',
+    role: 'Estagiária de Desenvolvimento · atividades de nível júnior',
+    company: 'Weeke Manager',
+    text: 'Ampliação da responsabilidade técnica em correções, validações, componentização e integração entre frontend, backend e banco, ainda formalmente na modalidade de estágio.',
+    stack: ['React', 'TypeScript', 'C#', '.NET 6', 'Entity Framework']
+  },
+  {
+    period: 'Início de 2026',
+    role: 'Desenvolvedora de Software Júnior',
+    company: 'Weeke Manager',
+    text: 'Transição para a posição de desenvolvedora júnior após dois anos de estágio, mantendo a atuação em sistemas corporativos e integrações full stack.',
+    stack: ['React', 'TypeScript', 'C#', '.NET 6', 'SQL']
+  },
+  {
+    period: '06/2026 · atual',
     role: 'Desenvolvedora de Software Júnior',
     company: 'AgriX',
     text: 'Atuação na evolução de um sistema corporativo voltado ao agronegócio, integrando frontend, backend e banco de dados.',
     stack: ['C#', '.NET 6', 'SQL', 'React', 'TypeScript']
   },
   {
-    period: '2025 · 2º ano de estágio',
-    role: 'Estagiária de Desenvolvimento · atividades de nível júnior',
-    company: 'AgriX',
-    text: 'Ampliação da responsabilidade técnica em correções, validações, componentização e integração entre frontend, backend e banco, ainda na modalidade de estágio.',
-    stack: ['React', 'TypeScript', 'C#', '.NET 6', 'Entity Framework']
-  },
-  {
-    period: 'Início de 2024 · 2025',
-    role: 'Estagiária de Desenvolvimento',
-    company: 'AgriX',
-    text: 'Entrada no desenvolvimento profissional durante o tecnólogo, com aprendizado prático em sistemas corporativos e trabalho colaborativo.',
-    stack: ['React', 'TypeScript', 'C#', 'SQL', 'GitLab']
-  },
-  {
-    period: '2023',
-    role: 'Técnico em Análise e Desenvolvimento de Sistemas',
-    company: 'Ensino médio técnico',
-    text: 'Primeiro contato estruturado com lógica de programação, desenvolvimento de sistemas e fundamentos da área de tecnologia.',
-    stack: ['Lógica', 'Programação', 'Sistemas']
-  },
-  {
     period: 'Previsão · fim de 2026',
     role: 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
-    company: 'UNIC',
-    text: 'Formação superior em andamento, conectando fundamentos acadêmicos à experiência prática no desenvolvimento de software.',
+    company: 'UNIC Beira Rio · Cuiabá',
+    text: 'Conclusão prevista da formação superior iniciada em 2024, conectando fundamentos acadêmicos à experiência prática no desenvolvimento de software.',
     stack: ['Engenharia de software', 'Banco de dados', 'Desenvolvimento']
   },
   {
