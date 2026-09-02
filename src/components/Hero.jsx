@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { profile } from '../data/portfolio';
 import { Icon } from './Icon';
 
-const roles = ['Full-Stack Developer', 'Desenvolvedora .NET', 'Criadora de interfaces'];
+const roles = ['Desenvolvedora Full Stack', 'Desenvolvedora .NET', 'Integração de sistemas'];
 
 export function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -18,7 +18,7 @@ export function Hero() {
     return () => clearTimeout(timer);
   }, [typed, roleIndex]);
 
-  return <section className="hero" id="top"><div className="hero-grid container"><div className="hero-copy"><p className="eyebrow"><span className="status-dot"></span> Disponível para novos desafios</p><h1>Olá, eu sou<br /><span className="hero-name">{profile.name}</span><span className="hero-caret">_</span></h1><p className="hero-role"><span>{typed}</span><span className="typing-caret">|</span></p><p className="hero-text">Desenvolvedora de software júnior apaixonada por transformar ideias em aplicações úteis, bonitas e bem estruturadas.</p><div className="hero-actions"><a className="button primary" href="#projetos">Ver projetos <Icon name="arrow" /></a><a className="button text-button" href="#contato">Vamos conversar <Icon name="arrow" /></a><a className="button text-button" href={`mailto:${profile.email}?subject=Solicitação de currículo`}>Solicitar currículo <Icon name="arrow" /></a></div><div className="social-row" aria-label="Redes sociais"><a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Icon name="github" /></a><a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" /></a></div></div><Terminal /></div><div className="scroll-cue"><span>01</span><i></i><span>scroll para explorar</span></div></section>;
+  return <section className="hero" id="top"><div className="hero-grid container"><div className="hero-copy"><p className="eyebrow"><span className="status-dot"></span> Disponível para novos desafios</p><h1>Olá, eu sou<br /><span className="hero-name">{profile.name}</span><span className="hero-caret">_</span></h1><p className="hero-role"><span>{typed}</span><span className="typing-caret">|</span></p><p className="hero-text">Desenvolvedora de software júnior apaixonada por transformar ideias em aplicações úteis, funcionais e bem estruturadas.</p><div className="hero-actions"><a className="button primary" href="#projetos">Ver projetos <Icon name="arrow" /></a><a className="button text-button" href="#contato">Vamos conversar <Icon name="arrow" /></a><a className="button text-button" href={`mailto:${profile.email}?subject=Solicitação de currículo`}>Solicitar currículo <Icon name="arrow" /></a></div><div className="social-row" aria-label="Redes sociais"><a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Icon name="github" /></a><a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" /></a></div></div><Terminal /></div><div className="scroll-cue"><span>01</span><i></i><span>scroll para explorar</span></div></section>;
 }
 
 function Terminal() {
